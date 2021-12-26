@@ -30,6 +30,11 @@ The purpose of this analysis is to utilize and compare four different methods of
 - Better recall on the high risk loans vs the low risk loans, with similar Precision again
 <br>![image](https://user-images.githubusercontent.com/88811124/147371687-5198682e-a68a-4f4b-9e97-a2626ed6977a.png)<br>
 
-### 
+### Balanced Random Forest Classifier vs Easy Ensemble CLassifier Models
+- Both have significantly higher Accuracy scores than the four sampling methods used prior
+- The Easy Ensemble Classifier is clearly the better model for our current dataset, with roughly double the f score for high risk loans and a much higher f score for low risk loans, than the Random Forest Classifier model
+
+## Summary 
+- While none of these models are perfect, the Random Forest Classifier is the brightest of the bunch. However, I wouldn't recommend any of these models for any real-world application. None of the models used performed well enough when analyzing high risk loans, with the highest f score only being 14%. All of the models were very precise for low risk loans, scoring 100%, with servicable recalls as well, but none were very preice whatsoever when it came to the more important high risk loans that needed to be identified.
 
  
